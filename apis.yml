@@ -1,0 +1,32 @@
+aid: quickchart
+name: QuickChart
+description: "Generate chart and graph images"
+url: https://quickchart.io/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Development"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Development
+  - Public APIs
+apis:
+  - name: QuickChart
+    description: "Generate chart and graph images"
+    humanURL: https://quickchart.io/
+    baseURL: https://quickchart.io/
+    tags:
+      - Development
+    properties:
+      - type: Documentation
+        url: https://quickchart.io/
+common:
+  - type: Website
+    url: https://quickchart.io/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
