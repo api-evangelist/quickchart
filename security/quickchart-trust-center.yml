@@ -1,0 +1,13 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://quickchart.io/security/
+url: https://quickchart.io/security/
+certifications:
+- SOC 2
+- ISO 27001
+evidence:
+- source: https://quickchart.io/security/
+  keywords:
+  - soc 2
+  - iso 27001
