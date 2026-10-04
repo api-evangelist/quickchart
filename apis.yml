@@ -39,7 +39,6 @@ apis:
   - name: QuickChart
     description: "Generate chart and graph images"
     humanURL: https://quickchart.io/
-    baseURL: https://quickchart.io/
     tags:
       - Development
     properties:
