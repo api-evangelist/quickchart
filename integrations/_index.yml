@@ -26,7 +26,7 @@
     app_slug: quickchart
     beta: false
     builder: unknown (not in the directory record)
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: quickchart-n8n
   label: n8n
@@ -51,5 +51,5 @@
     node_path: QuickChart
     trigger: false
     builder: n8n (built-in node)
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
