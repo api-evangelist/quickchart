@@ -91,6 +91,23 @@ edges:
     detected: '2026-10-22'
   detected_by: sweep-openapi-directory-apis-guru.py
   first_seen: '2026-10-22'
+- partner_name: Airtable (own)
+  partner: airtable
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://airtable.com/marketplace/blkZ5M0k1EDRSE8D7/qr-code-maker
+  mirror_of: airtable/integrations/airtable-integration-edges.yml
+  apps:
+  - QR Code Maker
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Airtable extension
 method: searched
 checked:
 - https://github.com/n8n-io/n8n/tree/860f1273ebd73fabbd668cbec2c49ed9b48a286d/packages/nodes-base/nodes/
@@ -98,6 +115,7 @@ checked:
 - https://zapier.com/api/v4/apps/
 - https://api.apis.guru/v2/list.json
 - https://api.apis.guru/v2/providers.json
+- airtable/integrations/airtable-integration-edges.yml
 source:
 - https://github.com/n8n-io/n8n/tree/860f1273ebd73fabbd668cbec2c49ed9b48a286d/packages/nodes-base/nodes/
 - https://zapier.com/api/v4/apps/
